@@ -23,22 +23,22 @@ function AboutUs() {
             We empower students to write, manage, and submit their college applications online with clarity and confidence.
           </p>
           <img
-            src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238"
+            src="https://plus.unsplash.com/premium_photo-1661387668199-a013aa35bea9?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Students celebrating"
             className="mt-10 mx-auto rounded-3xl shadow-lg max-h-150 object-cover"
           />
         </section>
 
         {/* Our Story Section with Arrow Guide */}
-        <section className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center relative">
-          <div className="relative">
+        <section className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-5 items-center relative">
+          <div className="relative flex justify-center items-center py-8 ">
             <img
-              src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b"
+              src="https://images.unsplash.com/photo-1594377157609-5c996118ac7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGNydW1wbGVkJTIwcGFwZXJ8ZW58MHx8MHx8fDA%3D"
               alt="Student writing application"
-              className="relative rounded-2xl shadow-xl"
+              className="relative rounded-2xl shadow-xl object-cover"
             />
             {/* Decorative Line */}
-            <div className="absolute -top-6 -left-6 border-4 border-dashed border-purple-400 w-20 h-20 rounded-full animate-spin-slow"></div>
+            <div className="absolute -top-7 -left-5 border-4 border-dashed border-purple-400 w-20 h-20 rounded-full animate-spin-slow"></div>
           </div>
           <div>
               <h2 className="text-4xl font-bold text-gray-900 leading-tight mb-6 relative inline-block">
@@ -53,6 +53,7 @@ function AboutUs() {
             </p>
 
           </div>
+          
         </section>
 
         {/* Mission Section */}
@@ -79,7 +80,7 @@ function AboutUs() {
             {/* Right Side - Single Image */}
             <div className="flex justify-center items-center py-8">
               <img
-                src="https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+                src="https://images.unsplash.com/photo-1627634777217-c864268db30c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Team working together"
                 className="w-[520px] h-[360px] object-cover rounded-2xl shadow-2xl"
               />
