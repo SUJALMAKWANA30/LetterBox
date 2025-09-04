@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi'; // React icons
-import { FileText, Sparkles } from "lucide-react";
 
 function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
