@@ -295,7 +295,6 @@ function AboutUs() {
         </motion.div>
       </section>
 
-        
       </div>
     </>
   );
