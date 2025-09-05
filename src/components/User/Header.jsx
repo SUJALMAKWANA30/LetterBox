@@ -27,7 +27,7 @@ function Header() {
               <Link to="/" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Home</Link>
               <Link to="/application" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Applications</Link>
               <Link to="/about-us" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">About Us</Link>
-              <a href="#" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Contact Us</a>
+              <Link to="/my-application" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">My Applications</Link>
             </nav>
 
             {/* Auth Buttons */}
@@ -53,7 +53,7 @@ function Header() {
             <Link to="/" onClick={toggleMenu} className="block text-gray-700 hover:text-purple-600">Home</Link>
             <Link to="/application" onClick={toggleMenu} className="block text-gray-700 hover:text-purple-600">Applications</Link>
             <Link to="/about-us" onClick={toggleMenu} className="block text-gray-700 hover:text-purple-600">About Us</Link>
-            <a href="#" className="block text-gray-700 hover:text-purple-600">Contact Us</a>
+            <Link to="/my-application" onClick={toggleMenu} className="block text-gray-700 hover:text-purple-600">My Applications</Link>
             <hr className="border-gray-200" />
             <Link to="/login" onClick={toggleMenu} className="block text-gray-700 hover:text-purple-600">Log In</Link>
             <Link to="/sign-up" onClick={toggleMenu} className="block text-purple-600 font-semibold">Sign Up</Link>

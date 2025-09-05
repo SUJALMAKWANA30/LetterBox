@@ -8,6 +8,7 @@ import SignUp from './pages/User/SignUp.jsx';
 import ForgetPassword from './pages/User/ForgetPassword.jsx';
 import Application from './pages/User/Application.jsx';
 import AboutUs from './pages/User/AboutUs.jsx';
+import MyApplication from './pages/User/MyApplication.jsx';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/forget-password" element={<ForgetPassword/>}/>
           <Route path="/application" element={<Application/>}/>
           <Route path="/about-us" element={<AboutUs/>}/>
+          <Route path="/my-application" element={<MyApplication/>}/>
 
         </Routes>
 
